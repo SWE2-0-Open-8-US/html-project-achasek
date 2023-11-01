@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 
 import Button from './components/Button/Button';
-import SplashHeader from './components/SplashHeader/SplashHeader';
+
+import Splash from './components/Splash/Splash';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <>
-      {showSplash ? <SplashHeader showSplash={showSplash} setShowSplash={setShowSplash} /> : <h1>Chases Page</h1>}
+
+      {showSplash ? <Splash showSplash={showSplash} setShowSplash={setShowSplash} /> : <h1>Chases Page</h1>}
       <div className="card">
         <Button handleClick={() => setCount((count) => count + 1)} text={`count is ${count}`} />
         <p>
