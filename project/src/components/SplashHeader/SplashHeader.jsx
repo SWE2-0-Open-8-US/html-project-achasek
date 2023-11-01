@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import "./Splash.css";
+import "./SplashHeader.css";
 import { useEffect } from 'react';
 
 const Splash = ({ setShowSplash, showSplash }) => {
