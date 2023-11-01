@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Button from './components/Button/Button';
+
 import Splash from './components/Splash/Splash';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+
       {showSplash ? <Splash showSplash={showSplash} setShowSplash={setShowSplash} /> : <h1>Chases Page</h1>}
       <div className="card">
         <Button handleClick={() => setCount((count) => count + 1)} text={`count is ${count}`} />
