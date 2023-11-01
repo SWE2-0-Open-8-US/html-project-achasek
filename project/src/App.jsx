@@ -21,6 +21,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam et officiis. Reprehenderit sit possimus aliquam, esse molestias necessitatibus maiores aperiam voluptate debitis officiis provident dignissimos. Odit deleniti blanditiis ea.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis modi id qui, velit beatae veniam a fugiat sunt quasi dicta illo eaque animi commodi, ratione asperiores laboriosam. Eligendi, illum similique?
       </p>
     </>
   )
