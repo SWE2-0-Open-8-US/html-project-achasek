@@ -1,7 +1,11 @@
 :root {
+  --hero-text-color: rgb(245,245,245);
+  --rainbowColorBorder: linear-gradient(white, white) padding-box, linear-gradient(to right, #ED1A37 0%, #F78D1E 18.46%, #FFDB00 31.62%, #009D4D 45.6%, #005EAD 60%, #003066 77.49%, #622F7A 96.95%) border-box;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  scroll-behavior: smooth;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
