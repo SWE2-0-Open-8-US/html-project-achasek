@@ -5,6 +5,7 @@ import './App.css'
 
 import Splash from './components/Splash/Splash';
 import Nav from './components/Nav/Nav';
+import Footer from './components/Footer/Footer';
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -27,13 +28,13 @@ function App() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam et officiis. Reprehenderit sit possimus aliquam, esse molestias necessitatibus maiores aperiam voluptate debitis officiis provident dignissimos. Odit deleniti blanditiis ea.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis modi id qui, velit beatae veniam a fugiat sunt quasi dicta illo eaque animi commodi, ratione asperiores laboriosam. Eligendi, illum similique?
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus veniam impedit at ipsa, natus voluptatem repudiandae corrupti eveniet autem laboriosam suscipit, labore veritatis debitis beatae cumque, unde in eligendi quidem!
+            <br />
+            <br />
+            Edit <code>src/App.jsx</code> to add more.
           </h3>
         </div>
       </div>
-      <p className="read-the-docs">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam et officiis. Reprehenderit sit possimus aliquam, esse molestias necessitatibus maiores aperiam voluptate debitis officiis provident dignissimos. Odit deleniti blanditiis ea.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis modi id qui, velit beatae veniam a fugiat sunt quasi dicta illo eaque animi commodi, ratione asperiores laboriosam. Eligendi, illum similique?
-      </p>
+      <Footer />
     </>
   )
 }

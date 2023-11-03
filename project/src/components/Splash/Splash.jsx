@@ -8,7 +8,7 @@ const Splash = () => {
   setTimeout(() => {
     setShowSplash(false)}
   , 7000)
-  window.scrollTo(0, 1000)
+  window.scrollTo(0, 800)
   })()
 
   return (
