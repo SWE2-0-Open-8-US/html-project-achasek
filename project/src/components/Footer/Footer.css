@@ -1,0 +1,27 @@
+.footer {
+    width: 100vw;
+    max-height: 20vh;
+    display: grid;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+}
+
+.footerLinks li {
+    margin: 1.5%;
+    list-style-type: none;
+}
+
+.footerLinks a {
+    text-decoration: none;
+}
